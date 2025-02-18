@@ -1,0 +1,2 @@
+print("bubu")
+print("nene")
