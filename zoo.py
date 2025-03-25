@@ -23,11 +23,31 @@
 
 # Tuto část dopiš
 
-#def pridej(zvire, pocet):
+def pridej(zvire, pocet):
+    global tygri
+    global lvy
+    global opice
+    if(zvire=="tygri"):
+        tygri = tygri+pocet
+    elif(zvire=="opice"):
+        opice = opice+pocet
+    elif(zvire=="lvy"):
+        lvy = lvy+pocet
+    else:
+        print("TO NENI V POHODE")
+def odeber(zvire, pocet):
+    if(zvire=="tygri"):
+        tygri = tygri-pocet
+    elif(zvire=="opice"):
+        opice = opice-pocet
+    elif(zvire=="lvy"):
+        lvy = lvy-pocet
+    else:
+        print("NEEEEE")
+        
     
-#def odeber(zvire, pocet):
-    
-#def vypis():
+def vypis():
+    print("tygri,lvy,opice")
     
 
 
