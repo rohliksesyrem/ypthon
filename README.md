@@ -8,3 +8,4 @@
 ```print(BUUBU)
 Vypíše bubu
 
+takže udělal jsem pole kde jsou hudební nastroje co se odeberou přidají a seřadi pozpátku
