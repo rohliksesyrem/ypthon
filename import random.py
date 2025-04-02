@@ -1,7 +1,32 @@
-import random
+cislo1 = int(input("CISLO"))
+cislo2 = int(input("DALSI CISLO"))
+znamka = (input("znamenko"))
 
-barvy = ["červená", "modrá", "zelená"]
-random.choice(barvy)
+if znamka == "+":
+   vyjde = print(cislo1 + cislo2)
+elif znamka == "*":
+    vyjde = print(cislo1 * cislo2)
+elif znamka == "-":
+    vyjde = print(cislo1 - cislo2)
+elif znamka == "/":
+    vyjde = print(cislo1 / cislo2)
+else:
+    print("JDI PRYC")
+bababa = input("CHECS ZNOVA ANO/NE")
 
-bah = 2+2
-print(bah)
+pole = [vyjde]
+if bababa == "Ano":
+    elif znamka == "+":
+        vyjde = print(cislo1 + cislo2)
+    elif znamka == "*":
+        vyjde = print(cislo1 * cislo2)
+    elif znamka == "-":
+        vyjde = print(cislo1 - cislo2)
+    elif znamka == "/":
+        vyjde = print(cislo1 / cislo2):
+    else:
+    print("JDI PRYC")
+bababa = input("CHECS ZNOVA ANO/NE")
+
+
+
